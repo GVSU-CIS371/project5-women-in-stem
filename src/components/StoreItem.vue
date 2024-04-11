@@ -1,5 +1,4 @@
 <template>
-  <!-- your answer -->
   <div>
     <v-card>
       <v-card-title>{{ product.data.name }}</v-card-title>
@@ -16,7 +15,6 @@
 </template>
 
 <script lang="ts" setup>
-// your answer
 import { ProductDoc } from '../types/product';
 
 defineProps<{
