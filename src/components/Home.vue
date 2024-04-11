@@ -13,5 +13,6 @@ import StoreItem from './StoreItem.vue';
 import { useProductStore } from '../stores/ProductStore';
 
 const productStore = useProductStore();
+productStore.init();
 const products = productStore.products;
 </script>
